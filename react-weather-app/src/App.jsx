@@ -21,18 +21,6 @@ const weatherData = {
 
 function App() {
 
-  const [loading, setLoading] = useState(false);
-
-  const displayLoading = () => {
-
-  }
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoading(true)
-  //   }, 1000)
-  // }, [])
-
   return (
     <>
       <BrowserRouter>
