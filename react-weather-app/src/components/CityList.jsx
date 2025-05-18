@@ -6,7 +6,7 @@ export default function CityList({ city }) {
     <div>
       {Object.keys(city).map((cityName) => (
         <Link to={`/forecast/${cityName}`}>
-          {cityName}
+          {cityName}<br />
         </Link>
       ))}
     </div>
